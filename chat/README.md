@@ -1,12 +1,37 @@
-# React + Vite
+Chatbot – React + Node.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully designed interactive chatbot inspired by Lord Krishna’s teachings from the Bhagavad Gita**.  
+This chatbot allows users to ask spiritual questions and receive responses directly, with voice playback, smooth animations, 
+and a video background.
+_______________________________________________________________________________________________________
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- 💬 **Real-time Chat Interface** – Chat with “Krishna” and receive instant answers.
+- 🔊 **Voice Reply (Speech Synthesis)** – Krishna’s replies can be read aloud with one click.
+- 🎥 **Dynamic Background Video** – Peaceful looping video adds a divine atmosphere.
+- 🌈 **Modern UI** – Glassmorphism design using TailwindCSS and Lucide Icons.
+- 🤖 **Backend Integration (Node.js)** – Connects to a backend endpoint for intelligent replies.
+- ⚙️ **Auto-scroll & Loading Animation** – Smooth scrolling and message loader effects.
+- 📱 **Fully Responsive** – Works perfectly on desktop and mobile devices.
+______________________________________________________________________________________________________________
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+- **React.js**
+- **TailwindCSS**
+- **Lucide-react** (icons)
+- **SpeechSynthesis API** (for voice)
+- **Framer Motion** (optional animation library)
+
+### Backend
+- **Node.js / Express.js**
+- **OpenAI API / Custom Model API** (for generating Krishna’s responses)
+
+___________________________________________________________________________________________________________________
+
+Real-Life Use Case
+
+Imagine visiting a virtual temple website — this chatbot can guide visitors with teachings, help them learn verses from the Gita, and make spiritual wisdom accessible interactively.
